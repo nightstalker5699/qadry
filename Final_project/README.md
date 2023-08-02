@@ -4,7 +4,7 @@
 
 # register
 ## register.py
- ![photo](https://github.com/nightstalker5699/cs50-final-project/blob/main/readme%20images/register/Screenshot%202022-03-05%20195340.png)
+ ![photo](https://github.com/nightstalker5699/qadry/blob/main/readme%20images/register/Screenshot%202022-03-05%20195340.png)
  first we check if user got here by get or post 
  if get then the register page will popup 
  else we create a class that have  all flask-wtform field and we assign that class to local variable called form

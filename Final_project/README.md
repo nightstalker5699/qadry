@@ -48,5 +48,5 @@ then we return the dog name and the email of the owner to contact him in the ado
 ![photo](https://github.com/nightstalker5699/qadry/blob/main/readme%20images/change%20password/Screenshot%202022-03-05%20195809.png)
 same as login and register 
 if they entered the old password right and new equal to confirm then we replace the old with a new one (both are hash :D)
-![photo](https://github.com/nightstalker5699/cs50-final-project/blob/569ae1b422c6510997a65df17cd98b4f731fa8ff/readme%20images/change%20password/Screenshot%202022-03-05%20195733.png)
-![photo](https://github.com/nightstalker5699/cs50-final-project/blob/569ae1b422c6510997a65df17cd98b4f731fa8ff/readme%20images/change%20password/Screenshot%202022-03-05%20195824.png)
+![photo](https://github.com/nightstalker5699/qadry/blob/main/readme%20images/change%20password/Screenshot%202022-03-05%20195733.png)
+![photo](https://github.com/nightstalker5699/qadry/blob/main/readme%20images/change%20password/Screenshot%202022-03-05%20195824.png)

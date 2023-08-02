@@ -1,0 +1,24 @@
+{% extends "layout.html"%}
+
+{% block title %}
+register
+{% endblock %}
+
+{% block main %}
+
+<form method ="POST" action="/register">
+    <div class="form-floating mb-3">
+       {{form.name(class="form-control")}}
+      {{form.name.label(for ="floatingInput")}}
+    </div>
+    <div class="form-floating mb-3 ">
+      {{form.password(class="form-control")}}
+      {{form.password.label( for = "floatingpassword")}}
+    </div>
+    <div class="form-floating mb-3 ">
+       {{ form.confirm(class="form-control") }}
+        {{ form.confirm.label(for ="floatingPassword") }}
+      </div>
+      {{form.submit(class= "btn btn-outline-warning")}}
+  </form>
+    {% endblock %}

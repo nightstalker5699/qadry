@@ -1,0 +1,7 @@
+body {
+    background: url('https://image.shutterstock.com/image-vector/seamless-pattern-flat-cartoon-dog-600w-1411303103.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }

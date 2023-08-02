@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{%block title%}
+ donate
+{% endblock%}
+
+{% block main%}
+<form action="/donate" method = "POST" enctype="multipart/form-data">
+  <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="floatinginput" placeholder="name@example.com"name ="email" required>
+    <label for="floatingInput">Email address</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="text" class="form-control" id="floatinginput"name ="address" required>
+    <label for="floatinginput">address</label>
+  </div>
+    <div class="form-floating mb-3">
+        {{form.name(class = "form-control")}}
+       <label for="">Dog name</label>
+    </div>
+    <div class="form-check">
+         {%for i in form.gender%}
+         <div>
+             {{i(class="form-check-input")}}
+             {{i.label(class="form-check-label")}}
+             </div>
+             {%endfor%}
+      </div>
+    <div class="input-group mb-3">
+       {{form.type.label(class="form-label")}} 
+       {{form.type(class="form-select")}}
+      </div>
+      <div class ="mb-3">
+        {{form.birthdays.label}}
+        <input type="date" name = "birthday">
+      </div>
+      <div class ="mb-3">
+        {{form.pic.label(class="form-label")}}
+        {{form.pic(class="form-control") }}
+      </div>
+      <button type="submit" class="btn btn-outline-warning" >Donate</button>
+</form>
+
+{% endblock %}

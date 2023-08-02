@@ -1,0 +1,24 @@
+{%extends "layout.html"%}
+
+{%block title%}
+change password
+{% endblock%}
+
+{% block main%}
+
+<form action="/change" method="post">
+    <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="old Password" name = "old" required>
+        <label for="floatingPassword">old Password</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="new Password" name ="new" required>
+        <label for="floatingPassword">new Password</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="confirm Password" name ="confirm" required>
+        <label for="floatingPassword">confirm Password</label>
+      </div>
+      <button type="submit" class="btn btn-outline-warning" >Change password</button>
+</form>
+{% endblock %}
